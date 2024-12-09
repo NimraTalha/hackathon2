@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    -webkit-text-size-adjust: 100%; /* Old Safari and WebKit browsers */
+    text-size-adjust: 100%;         /* Modern browsers */
+  }
+  
