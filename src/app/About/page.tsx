@@ -4,7 +4,7 @@ import React from "react";
 import ProductListing from "@/app/Components/ProductListing"; // Importing the ProductListing component
 import Navbar from "@/app/Components/Navbar";
 
-const About = () => {
+const about = () => {
   return ( 
     <><><Navbar /><div>
       {/* Product Listing Section */}
@@ -123,4 +123,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default about;
