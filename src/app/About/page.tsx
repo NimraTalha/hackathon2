@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import ProductListing from "@/components/ProductListing"; // Importing the ProductListing component
-import Navbar from "@/components/Navbar";
+import ProductListing from "@/app/Components/ProductListing"; // Importing the ProductListing component
+import Navbar from "@/app/Components/Navbar";
 const About = () => {
   return ( 
     <><Navbar /><div>
