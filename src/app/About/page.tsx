@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-"use client"
+
 import React from "react";
 import ProductListing from "@/app/Components/ProductListing"; // Importing the ProductListing component
 import Navbar from "@/app/Components/Navbar";
