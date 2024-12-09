@@ -7,6 +7,7 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Product from "./Components/Products";
 import Touch from "./Components/Touch";
+import Footer from "./Components/Footer"
 
 
 
