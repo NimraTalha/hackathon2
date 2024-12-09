@@ -2,11 +2,11 @@
 
 import React from "react";
 import ProductListing from "@/app/Components/ProductListing"; // Importing the ProductListing component
-import Navbar from "@/app/Components/Navbar";
+import Footer from "../Components/Footer";
 
 const about = () => {
   return ( 
-    <><><Navbar /><div>
+    <><><div>
       {/* Product Listing Section */}
       <ProductListing /> {/* The product listing component is displayed here */}
 
@@ -117,8 +117,8 @@ const about = () => {
           </div>
         </div>
       </div>
-    </div></>
-    </>
+    </div></><Footer /></>
+  
     
   );
 };
