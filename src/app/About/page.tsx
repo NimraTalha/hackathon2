@@ -3,7 +3,7 @@
 import React from "react";
 import ProductListing from "@/app/Components/ProductListing"; // Importing the ProductListing component
 import Navbar from "@/app/Components/Navbar";
-import Footer from "../Components/Footer";
+
 const About = () => {
   return ( 
     <><><Navbar /><div>
@@ -117,7 +117,9 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div></><Footer /></>
+    </div></>
+    </>
+    
   );
 };
 
