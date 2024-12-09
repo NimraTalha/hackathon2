@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import type { PluginAPI } from "tailwindcss/types/config";
 
 export default {
   content: [
@@ -14,5 +15,15 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function (pluginAPI: PluginAPI) {
+      const { addBase } = pluginAPI;
+      addBase({
+        html: {
+          "-webkit-text-size-adjust": "100%",
+          "text-size-adjust": "100%",
+        },
+      });
+    },
+  ],
 } satisfies Config;
