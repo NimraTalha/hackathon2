@@ -4,7 +4,7 @@ import React from "react";
 import ProductListing from "@/app/Components/ProductListing"; // Importing the ProductListing component
 
 
-const about = () => {
+const About = () => {
   return ( 
    <><div>
       {/* Product Listing Section */}
@@ -123,4 +123,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
