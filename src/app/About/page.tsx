@@ -2,11 +2,11 @@
 
 import React from "react";
 import ProductListing from "@/app/Components/ProductListing"; // Importing the ProductListing component
-import Footer from "../Components/Footer";
+
 
 const about = () => {
   return ( 
-    <><><div>
+   <><div>
       {/* Product Listing Section */}
       <ProductListing /> {/* The product listing component is displayed here */}
 
@@ -117,7 +117,7 @@ const about = () => {
           </div>
         </div>
       </div>
-    </div></><Footer /></>
+    </div></>
   
     
   );
