@@ -1,11 +1,10 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import React from "react";
 import ProductListing from "@/app/Components/ProductListing"; // Importing the ProductListing component
 
 
-const About = () => {
+const about = () => {
   return ( 
    <><div>
       {/* Product Listing Section */}
@@ -124,4 +123,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default about;
