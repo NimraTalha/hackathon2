@@ -1,8 +1,10 @@
 
+// next.config.ts
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,  // Recommended for development
-  // Remove swcMinify and appDir if using Next.js 15.x.x
+  // Remove invalid options
+  reactStrictMode: true,
 };
 
 export default nextConfig;

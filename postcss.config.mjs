@@ -1,9 +1,11 @@
-/** @type {import('postcss-load-config').Config} */
-module.exports = {
-  plugins: [
-    'tailwindcss',
-    'autoprefixer', // Make sure autoprefixer is included
-    'postcss-preset-env',
-  ],
-};
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable import/no-anonymous-default-export */
+import autoprefixer from 'autoprefixer';
+import tailwindcss from 'tailwindcss';
 
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};

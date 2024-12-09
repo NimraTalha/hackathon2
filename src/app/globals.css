@@ -3,15 +3,3 @@
 @tailwind utilities;
 
 
-@layer base {
-  html {
-    -webkit-text-size-adjust: 100%;  /* For older Safari/Chrome */
-    text-size-adjust: 100%;          /* For modern browsers */
-  }
-}
-
-
-.avatar_avatar__Qg_Wv {
-  -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
-  mask-image: radial-gradient(circle, white, black);
-}
