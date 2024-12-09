@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-
+"use client";
 import Benefit from "../Components/Benefits";
 import Brand from "../Components/Brand";
 import Ceramics from "../Components/Ceramics";
