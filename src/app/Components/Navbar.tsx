@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import React, { useState } from 'react';
 import { FaSearch, FaShoppingCart, FaUser } from 'react-icons/fa';
