@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
           {/* About Link */}
           <Link href="/about" className="text-gray-400 border-gray-500 hover:text-black">About</Link>
 
-          <a href="#" className="text-gray-400 border-gray-500 hover:text-black">Contact</a>
+          <a href="/home" className="text-gray-400 border-gray-500 hover:text-black">Contact</a>
 
           {/* Icons */}
           <button className="text-gray-400 border-gray-500 hover:text-black">
